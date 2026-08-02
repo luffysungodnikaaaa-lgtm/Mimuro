@@ -1,8 +1,10 @@
 # Mimuro
 
-React Native anime streaming client (UI + app architecture).
+React Native anime streaming client for **Android** (UI + app architecture).
 
 > **Public source export:** this repo has **no content API**. Private content-provider code is stubbed. Use it to inspect structure, UI, and local features only.
+
+Currently targets **Android only**.
 
 ## What’s included
 
@@ -22,25 +24,15 @@ Stubbed modules live under `src/api/` and throw:
 
 `Private content API is not included in this public repository.`
 
-## Getting started
+## Getting started (Android)
 
 ```sh
 npm install
 npm start
 ```
 
-Android:
-
 ```sh
 npm run android
-```
-
-iOS:
-
-```sh
-bundle install
-bundle exec pod install
-npm run ios
 ```
 
 Network content calls will fail by design — this public export does not include a content API.
