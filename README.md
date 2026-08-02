@@ -2,7 +2,7 @@
 
 React Native anime streaming client (UI + app architecture).
 
-> **Public review build:** content provider / scrape API implementations are **intentionally stubbed**. This repo is for code review of structure, UI, and local features — not a redistributable working streamer.
+> **Public source export:** private content API implementations are **intentionally stubbed**. This repo is for inspection of structure, UI, and local features.
 
 ## What’s included
 
@@ -14,9 +14,9 @@ React Native anime streaming client (UI + app architecture).
 ## What’s omitted
 
 - Private content API hosts and endpoints
-- HTML scrape / parser provider logic
+- Private content provider / parser logic
 - Download mapper provider
-- Hardcoded player / comments provider origins
+- Hardcoded player provider origins
 
 Stubbed modules live under `src/api/` and throw:
 
@@ -54,6 +54,6 @@ If you maintain a private fork, set:
 - `MIMURO_PLAYER_ORIGIN` / `MIMURO_PLAYER_REFERER`
 - `MIMURO_COMMENTS_BASE_URL` / `MIMURO_COMMENTS_AUTH_ORIGIN`
 
-## License / intent
+## Note
 
-Shared for portfolio / code review. Do not treat this public export as a complete cloneable streaming service.
+Shared for inspection only. Private backend code is not published.
