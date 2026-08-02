@@ -2,7 +2,7 @@
 
 React Native anime streaming client (UI + app architecture).
 
-> **Public source export:** private content API implementations are **intentionally stubbed**. This repo is for inspection of structure, UI, and local features.
+> **Public source export:** this repo has **no content API**. Private content-provider code is stubbed. Use it to inspect structure, UI, and local features only.
 
 ## What’s included
 
@@ -13,8 +13,8 @@ React Native anime streaming client (UI + app architecture).
 
 ## What’s omitted
 
-- Private content API hosts and endpoints
-- Private content provider / parser logic
+- Content API hosts and endpoints
+- Content provider / parser logic
 - Download mapper provider
 - Hardcoded player provider origins
 
@@ -43,17 +43,8 @@ bundle exec pod install
 npm run ios
 ```
 
-Without your private backend, network content calls will fail by design.
-
-## Private backend (not published)
-
-If you maintain a private fork, set:
-
-- `MIMURO_API_BASE_URL`
-- `MIMURO_SCHEDULE_API_BASE_URL`
-- `MIMURO_PLAYER_ORIGIN` / `MIMURO_PLAYER_REFERER`
-- `MIMURO_COMMENTS_BASE_URL` / `MIMURO_COMMENTS_AUTH_ORIGIN`
+Network content calls will fail by design — this public export does not include a content API.
 
 ## Note
 
-Shared for inspection only. Private backend code is not published.
+Shared for inspection only. There is no backend in this repository, and private content-provider code is not published.

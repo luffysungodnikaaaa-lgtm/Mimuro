@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 /**
- * Private backend base URLs are not included in this public review repo.
- * Point these at your own API when running a private build.
+ * Content API base URLs are not included in this public export.
  */
 const PRIVATE_API_BASE =
   process.env.MIMURO_API_BASE_URL ?? 'https://YOUR_PRIVATE_API.example';
