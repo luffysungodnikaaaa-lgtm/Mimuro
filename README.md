@@ -44,7 +44,3 @@ npm run ios
 ```
 
 Network content calls will fail by design — this public export does not include a content API.
-
-## Note
-
-Shared for inspection only. There is no backend in this repository, and private content-provider code is not published.
